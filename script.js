@@ -6,6 +6,9 @@ const person = {
 };
 
 // Write your code here, make sure the name of variables is exactly same as mentioned in the problem statement
+const team = players;   // Create a reference to the 'players' array
+const team1 = [...players];   // Create a copy of the 'players' array using the spread operator
+const cap1 = { ...person };   // Create a copy of the 'person' object using object spread
 
 window.players = players;
 window.person = person;
